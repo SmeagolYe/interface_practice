@@ -1,0 +1,11 @@
+certifi==2020.4.5.1
+chardet==3.0.4
+configparser==5.0.0
+ddt==1.4.1
+et-xmlfile==1.0.1
+idna==2.9
+jdcal==1.4.1
+openpyxl==3.0.4
+PyMySQL==0.9.3
+requests==2.23.0
+urllib3==1.25.9
