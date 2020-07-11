@@ -1,10 +1,11 @@
-import unittest
-from API_3.common import constants
-import HTMLTestReportCN
 import sys
 
 sys.path.append('./') # project根目录地址
 print(sys.path)
+
+import unittest
+from API_3.common import constants
+import HTMLTestReportCN
 
 suite = unittest.defaultTestLoader.discover(constants.cases_dir, 'test_*.py')
 
